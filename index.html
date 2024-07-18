@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- <link
+        rel="stylesheet"
+        media="screen and (max-width: 2200px)"
+        href="wide.css"
+      />
+      <link
+        rel="stylesheet"
+        media="screen and (max-width: 1400px)"
+        href="mid.css"
+      />
+      <link
+        rel="stylesheet"
+        media="screen and (max-width: 900px)"
+        href="small.css"
+      /> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 880px)" href="css/smallland.css">
+    <link rel="stylesheet" media="screen and (min-width: 881px) and (max-width: 1480px)" href="css/mediumsea.css">
+    <link rel="stylesheet" media="screen and (min-width: 1481px) and (max-width: 2280px)" href="css/wideair.css">
+  </head>
+
+  <body>
+    <!-- Title -->
+    <!-- Sea (yacht/cargo ship), air(plane/space shuttle), land(train/cars)-->
+
+    <!-- html content here is fixed. But can append to it in CSS @media using ::after and css property context:<your string> -->
+    <div class="titleContainer">
+      <strong>
+        <h1>BYC - Logistics Services<h1>
+      </strong>
+      <div class="slogan">"Moving at the speed of business. On-time, Everytime " </div>
+    </div>
+
+    <!-- MainPic -->
+    <div class="picContainer"></div>
+
+    <!-- section - description -flavorProfile -->
+    <div class="sectionContainer">
+      <!-- land logo-->
+      <img
+        src="/image/BYC-LAND-LOGO.jpg"
+        alt="" class="logo" id="land">
+
+      <!-- sea logo-->
+      <img src="/image/BYC-SEA-LOGO.jpg" alt=""
+        class="logo" id="sea">
+
+      <!-- air logo-->
+      <img src="/image/BYC-AIR-LOGO.jpg" alt=""
+        class="logo" id="air">
+    </div>
+
+    <footer class="rights">
+      <div>
+        <p class="copyright">&copy; 2024. All Rights Reserved.</p>
+      </div>
+      <div>
+        <p class="powered">Powered by BYC Media</p>
+      </div>
+    </footer>
+
+    <script src="app.js" async defer></script>
+  </body>
+
+</html>

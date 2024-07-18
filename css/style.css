@@ -1,0 +1,44 @@
+/* note: 
+any selector or css properties defined in style.css does not need to be defined in other .css files here.
+    The @media(conditions){properties}  is like a function with a condition which when met will apply the properties within the {}.
+    anything outside of that conditions (coined as General) will be applied.
+ */
+
+
+/* -------General CSS */
+.titleContainer {
+  text-align: center; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: bold;
+}
+
+.sectionContainer {
+  /* border: solid black; */
+  /* height: 40vh; */
+  margin: 4em;  
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* can also do margin: 0 30px at the child level.*/ 
+}
+
+.logo {   
+  border: 5px solid blue; 
+  border-radius: 45px;
+  width: 300px;
+  height: 200px; 
+}
+
+.rights {
+  display:flex;
+  justify-content: space-between;
+}
+.copyright {
+  font-size: 1.5em;
+  color:black
+}
+
+.powered {
+  font-size: 1.5em;
+  color:black
+}

@@ -1,0 +1,52 @@
+/* ------------Desktop  */
+@media (max-width: 2280px) {
+  body {
+    background-color: rgb(153, 165, 42);
+    color: peru;
+  }
+  .titleContainer {
+    border: solid peru;
+    /* height: 40vh; */
+    margin: 1em;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    color: black;
+  }
+  /* Notes: Usage of these to enhance @media:
+      pseudo-items ::after to control events
+      css property 'content' is being used to write text"
+     */
+  .titleContainer::after {
+    font-size: 30px;
+    content: " AIR BYC \A services available: \A Joby - air taxi,an Electric Vertical Take Off Landing (EVTOL)"; /* \A signifies new line*/
+    white-space: pre; /* or pre-line */
+    display: block; /* Ensure the content takes up its own block */
+  }
+  .picContainer {
+    border: solid black;
+    height: 40vh;
+    background-image: url("https://i.kinja-img.com/image/upload/c_fit,q_60,w_1315/2eb08ef398ce06e69d39799cf5f0f89f.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .logo {
+    border: solid yellow;
+    height: 20vh;
+    margin: 2em;
+  }
+  #air {
+    width: 250px;
+    display: block;
+  }
+  #sea {
+    width: 33%;
+    display: none;
+  }
+  #land {
+    width: 33%;
+    display: none;
+  }
+}
