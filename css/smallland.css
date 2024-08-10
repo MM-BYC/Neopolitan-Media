@@ -1,52 +1,51 @@
 /* ---------------Mobile  (land) */
 @media (max-width: 880px) {
-    body {
-      background-color: rgb(192, 239, 255);
-    }
-  
-    .titleContainer {
-      border: solid white;
-      height: 20vh;
-      margin: 1em;
-      font-size: 10px;
-      text-align: center;
-      color: black;
-    }
-  
-    /* Notes: Usage of these to enhance @media:
+  body {
+    background-color: rgb(192, 239, 255);
+  }
+
+  .titleContainer {
+    border: solid white;
+    height: 20vh;
+    margin: 1em;
+    font-size: 10px;
+    text-align: center;
+    color: black;
+  }
+
+  /* Notes: Usage of these to enhance @media:
       pseudo-items ::after to control events
       css property 'content' is being used to write text"
      */
-    .titleContainer::after {
-      font-size: 30px;
-      content: " LAND BYC \A services available: \A cars, semi-trucks, freight trains"; /* \A signifies new line*/
-      white-space: pre; /* or pre-line */
-      display: block; /* Ensure the content takes up its own block */
-    }
-  
-    .picContainer {
-      border: solid black;
-      height: 40vh;
-      background-image: url("/image/byc\ land\ logistics.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    .logo {
-      border: solid blue;
-      height: 20vh;
-      margin: 2em;
-    }
-    #air {
-      display: none;
-    }
-    #sea {
-      width: 33%;
-      display: none;
-    }
-    #land {
-      width: 250px;
-      height: 250px;
-      display: block;
-    }
+  .titleContainer::after {
+    font-size: 30px;
+    content: " LAND BYC \A services available: \A cars, semi-trucks, freight trains"; /* \A signifies new line*/
+    white-space: pre; /* or pre-line */
+    display: block; /* Ensure the content takes up its own block */
   }
-  
+
+  .picContainer {
+    border: solid black;
+    height: 40vh;
+    background-image: url("../image/BYC-LAND.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .logo {
+    border: solid blue;
+    height: 20vh;
+    margin: 2em;
+  }
+  #air {
+    display: none;
+  }
+  #sea {
+    width: 33%;
+    display: none;
+  }
+  #land {
+    width: 250px;
+    height: 250px;
+    display: block;
+  }
+}
