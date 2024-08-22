@@ -5,9 +5,9 @@
   }
 
   .titleContainer {
-    border: solid white;
+    /* border: solid white; */
     height: 20vh;
-    margin: 1em;
+    /* margin: 1em; */
     font-size: 10px;
     text-align: center;
     color: black;
@@ -18,8 +18,8 @@
       css property 'content' is being used to write text"
      */
   .titleContainer::after {
-    font-size: 30px;
-    content: " LAND BYC \A services available: \A cars, semi-trucks, freight trains"; /* \A signifies new line*/
+    font-size: 3em;
+    content: " LAND BYC \A Services Available: \A cars, semi-trucks, freight trains"; /* \A signifies new line*/
     white-space: pre; /* or pre-line */
     display: block; /* Ensure the content takes up its own block */
   }

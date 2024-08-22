@@ -4,9 +4,9 @@
     background-color: lemonchiffon;
   }
   .titleContainer {
-    border: solid burlywood;
+    /* border: solid burlywood; */
     /* height: 40vh; */
-    margin: 1em;
+    /* margin: 1em; */
     color: black;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -18,8 +18,8 @@
       css property 'content' is being used to write text"
   */
   .titleContainer::after {
-    font-size: 30px;
-    content: " SEA BYC \A Services available: \A International Cargo shipping lines"; /* \A signifies new line*/
+    font-size: 3em;
+    content: " SEA BYC \A Services Available: \A International Cargo Shipping Lines"; /* \A signifies new line*/
     white-space: pre; /* or pre-line */
     display: block; /* Ensure the content takes up its own block */
   }
