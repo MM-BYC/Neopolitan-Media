@@ -25,7 +25,8 @@
   }
 
   .picContainer {
-    border: solid black;
+    border: solid rgb(192, 239, 255);
+    border-radius: 35px;
     height: 40vh;
     background-image: url("../image/BYC-LAND.jpg");
     background-size: cover;

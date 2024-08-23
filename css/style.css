@@ -1,4 +1,4 @@
-/* note: 
+/* Project note: 
 any selector or css properties defined in style.css does not need to be defined in other .css files here.
     The @media(conditions){properties}  is like a function with a condition which when met will apply the properties within the {}.
     anything outside of that conditions (coined as General) will be applied.

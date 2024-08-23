@@ -25,7 +25,8 @@
   }
 
   .picContainer {
-    border: solid black;
+    border: solid lemonchiffon;
+    border-radius: 35px;
     height: 40vh;
     background-image: url("../image/BYC-SEA.jpg"); /*use dot to move up one level folder*/
     /* background-size allows image to fill container*/
