@@ -31,16 +31,18 @@ body {
 }
 
 .rights {
-  display: flex;
-  justify-content: space-between;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, auto);
 }
 .copyright {
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
   color: black;
 }
 
-.powered {
-  font-size: 1.5em;
+.poweredBy {
+  /* font-size: 1.5em; */
   color: black;
 }
 
