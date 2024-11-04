@@ -1,3 +1,6 @@
+Author: Michael Marquez
+Per Scholas project: Neopolitan Media Query.
+
 # Neopolitan Media Query
 ## Main screen 
 ![This is the main screen at full page browser](./readmeScreen/mainPage.png)
